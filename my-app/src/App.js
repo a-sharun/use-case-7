@@ -69,7 +69,7 @@ function MyFormComponent() {
         name="agreeTerms"
         checked={form.agreeTerms}
         onChange={handleChange}
-      />{" "}
+      />
       Agree to Terms
       {errors.agreeTerms && <p>{errors.agreeTerms}</p>}
       <input
@@ -78,7 +78,7 @@ function MyFormComponent() {
         value="male"
         checked={form.gender === "male"}
         onChange={handleChange}
-      />{" "}
+      />
       Male
       <input
         type="radio"
@@ -86,7 +86,7 @@ function MyFormComponent() {
         value="female"
         checked={form.gender === "female"}
         onChange={handleChange}
-      />{" "}
+      />
       Female
       {errors.gender && <p>{errors.gender}</p>}
       <button type="submit">Submit</button>
