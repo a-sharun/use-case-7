@@ -22,6 +22,12 @@ git clone https://github.com/a-sharun/use-case-7.git
 cd use-case-7/my-app
 ```
 
+3. Install packages
+
+```bash
+npm i
+```
+
 3. Run test
 
 ```bash
